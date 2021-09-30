@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.sider {
+    height: 100vh;
+    width: 250px;
+    background-color: #9F7249;
+}
+
+.siderbarList {
+    height: auto;
+    width: 100%;
+    padding: 0;
+}
+
+.siderbarList li:hover{
+    cursor: pointer;
+    background-color: #9c5b1e;
+}
+
+.active{
+    background-color: #9c5b1e;
+}
+
+.row {
+    width: 100%;
+    height: 60px;
+    list-style-type: none;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.rowIcon{
+    flex: 30%;
+    display: grid;
+    place-items: center;
+}
+
+.rowTitle{
+    flex: 70%;
+}
